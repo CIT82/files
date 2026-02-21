@@ -2,9 +2,9 @@
 
 In this assignment, you will begin your hands-on journey with HTML by completing a workshop on freeCodeCamp.org. This will help you understand how to structure content using HTML elements and practice basic asset management.
 
-#### Part 1: freeCodeCamp Workshop
+#### Part 1: freeCodeCamp Workshop and Debug
 1. Log into your account at [freecodecamp.org](https://www.freecodecamp.org).
-2. Complete the **"Build a Curriculum Outline"** workshop (11 steps) and Debug Camperbot's Profile Page.
+2. Complete the **"Build a Curriculum Outline"** workshop (11 steps) and **Debug Camperbot's Profile Page**.
 3. **Capture:** Once finished, take a screenshot (printscreen) of the site showing your completed work. 
    - **IMPORTANT:** Your screenshot **MUST** include your account photo/profile icon in the top right corner of the freeCodeCamp interface to receive credit.
 
@@ -22,7 +22,7 @@ You must resize your screenshot to a **width of 500px** (maintain aspect ratio) 
 1. Open your private repository and set up the following structure:
    - Inside your existing `lectures` folder, create a new folder named `freecodecamp`.
    - Inside `freecodecamp`, create a new folder named `img`.
-   - Place your `w2p1.png` file into the `img` folder.
+   - Place your `w2p1.png` (or .jpg or .webp) file into the `img` folder.
 
 #### Part 4: Create the index.html Link
 1. Inside the `freecodecamp` folder (at the same level as the `img` folder), create a new file named `index.html`.
