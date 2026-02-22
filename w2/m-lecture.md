@@ -26,9 +26,10 @@ You must resize your screenshot to a **width of 500px** (maintain aspect ratio) 
 
 #### Part 4: Create the index.html Link
 1. Inside the `freecodecamp` folder (at the same level as the `img` folder), create a new file named `index.html`.
-2. In `index.html`, add the basic HTML boilerplate.
+2. In `index.html`, add the basic HTML boilerplate, you can also use `!` tab to have VSCODE generate ths HTML. 
 3. **The Link:** Create an anchor tag (`<a>`) that links to your screenshot.
    - **Example:** `Week 2 Part 1 <a href="img/w2p1.png">Proof of Work</a>`
+4. Click Go-Live at the bottom right the VSCODE window and this will open a new tab with the output of your index.html. Make sure the link work. 
 
 ---
 
