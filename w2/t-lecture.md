@@ -15,6 +15,7 @@
 
 <h3>Step 2: Capture and Resize Your Work</h3>
 <p>Once you have finished all three sections, take a screenshot of your curriculum dashboard showing the completed checkmarks. Just like we did in Part 1, you need to resize this image before adding it to your project so your website loads quickly!</p>
+<p>This work is done in your private repo.</p>
 <ul>
     <li>Open your screenshot in an image editor (like Preview on Mac, Paint on Windows, or a free online tool).</li>
     <li>Resize the image so it is a manageable size for the web (around 500pixels wide), like we did for Part 1</li>
