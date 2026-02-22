@@ -16,7 +16,7 @@ You must resize your screenshot to a **width of 500px** (maintain aspect ratio) 
 * **Option 3: Mac:** Open in **Preview** > **Tools** > **Adjust Size** > Set Width to 500 pixels.
 * **Option 4: Chromebook:** Open in **Gallery** > **Rescale** icon > Set Width to 500.
 
-**Rename:** Save the final resized file as `w2p1.png` (or `.jpg`).
+**Rename:** Save the final resized file as `w2p1.png` (or `.jpg` or `.webp`).
 
 #### Part 3: Folder Setup & Organization
 1. Open your private repository and set up the following structure:
@@ -44,6 +44,6 @@ You must resize your screenshot to a **width of 500px** (maintain aspect ratio) 
 ### Submission Instructions
 1. **Git Push:** Push your work to GitHub.
 2. **Locate:** Go to [github.com/CIT82](https://github.com/CIT82) and find your private repo.
-3. **Verify:** Navigate to `lectures/freecodecamp` and verify your `index.html` and `img` folder are present.
+3. **Verify:** Navigate to `lectures/freecodecamp` and verify your `index.html` and `img` folder are present, click on the history icon and see the commits you have done. 
 4. **Submit:** Copy the URL of your `freecodecamp` folder and submit it to the Canvas assignment.
 
