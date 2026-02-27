@@ -20,7 +20,7 @@ In this assignment, you transition from structure (HTML) to style (CSS). This re
 1. Open your `index.html` in the `freecodecamp` folder.
 2. **HTML Section:** Ensure you have an `<h2>HTML</h2>` heading above your previous links.
 3. **CSS Section:** Below your HTML links, add an `<h2>CSS</h2>` heading.
-4. **Add Link:** Under the CSS heading, add an anchor tag (`<a>`) for this assignment.
+4. **Add Link:** Under the CSS heading, add unordered list(`<ul>`) nest inside and a list item(`<li>`)for this assignment.
    - **Example:** `<a href="img/w3p4.png">View my CSS Theory & Cafe Menu (Steps 1-20)</a>`
 
 ---
