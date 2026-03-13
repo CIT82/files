@@ -11,6 +11,8 @@ To begin this assignment, open your **private repository** in your development e
 
 ### Web Development Roadmap Commit Log
 
+> **💡 Pro-Tip:** When you see a **Required Commit Message** in the instructions below, it indicates you must complete the full **Git Workflow** (Stage, Commit, and Push) using the specific message provided.
+
 | Video | Part | **Instruction / Stop Condition** | Required Commit Message |
 | :--- | :--- | :--- | :--- |
 | **Mosh Roadmap** | **A** | **Action:** Create heading `## Intro: Frontend vs Backend`. Describe the visual difference between the "Browser" and "Server" icons Mosh uses in the first 60 seconds.<br>**Stop When:** Mosh says, "...skills you need to become a backend developer." (approx. 0:50) | `Added notes on Frontend vs Backend visual overview` |
