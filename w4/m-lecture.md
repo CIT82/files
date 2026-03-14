@@ -12,13 +12,13 @@ Now that you have the basic structure and theory down, we are going to dive into
 
 #### Part 2: Asset Management & Organization
 1. **Resize:** Use [Squoosh.app](https://squoosh.app/) to resize your screenshot to a width of **500px** (maintain aspect ratio).
-2. **Rename:** Save this file as `w4p5.png`.
-3. **Place:** Move `w4p3.png` into your **Private** repo inside `lectures/freecodecamp/img/`.
+2. **Rename:** Save this file as `w4p2.png`.
+3. **Place:** Move `w4p2.png` into your **Private** repo inside `lectures/freecodecamp/img/`.
 
 #### Part 3: Update index.html
 1. Open your `index.html` file in the `freecodecamp` folder.
 2. **Add Link:** In your CSS section (under the `<h2>CSS</h2>` heading), add a new anchor tag for this milestone.
-   - **Example:** `<a href="img/w4p5.png">View Cafe Menu Progress (Steps 21-60)</a>`
+   - **Example:** `<a href="img/w4p2.png">View Cafe Menu Progress (Steps 21-60)</a>`
 
 ---
 
