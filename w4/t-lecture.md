@@ -18,7 +18,7 @@ Congratulations! Today you are finishing your first fully-styled CSS project. Th
 #### Part 3: Update index.html
 1. Open your `index.html` file in the `freecodecamp` folder.
 2. **Add Link:** In your CSS section (under the `<h2>CSS</h2>` heading), add a new anchor tag for this milestone.
-   - **Example:** `<a href="img/w4p5.png">View Cafe Menu Progress (Finished)</a>`
+   - **Example:** `<a href="img/w4p3.png">View Cafe Menu Progress (Finished)</a>`
 
 ---
 
