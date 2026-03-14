@@ -1,7 +1,7 @@
 In this lab, you will step away from the freeCodeCamp "sandbox" and build a project from scratch in your own local environment. You will practice project organization, external styling, and professional image optimization.
 
-#### Part 1: Project Setup (Public Repo)
-1.  **Folders:** Open your **Public** repo in VS Code. Create a new folder named `code-along`. Inside that, create another folder named `practice`.
+#### Part 1: Project Setup (Private Repo)
+1.  **Folders:** Open your **private** repo in VS Code. Create a new folder named `code-along`. Inside that, create another folder named `practice`.
 2.  **HTML:** Inside the `practice` folder, create a file named `index.html`. 
 3.  **Emmet Magic:** Open `index.html`, type `!` and press **Enter**. Emmet will instantly generate your HTML boilerplate.
 4.  **CSS:** In the same folder, create a file named `styles.css`. *(Note: We use the plural 'styles' to match the freeCodeCamp project format!)*
