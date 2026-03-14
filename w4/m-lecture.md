@@ -10,11 +10,10 @@ Now that you have the basic structure and theory down, we are going to dive into
    - **IMPORTANT:** Your screenshot **MUST** include your account photo/profile icon in the top right corner for verification.
 
 
-
 #### Part 2: Asset Management & Organization
 1. **Resize:** Use [Squoosh.app](https://squoosh.app/) to resize your screenshot to a width of **500px** (maintain aspect ratio).
 2. **Rename:** Save this file as `w4p5.png`.
-3. **Place:** Move `w4p5.png` into your **Private** repo inside `lectures/freecodecamp/img/`.
+3. **Place:** Move `w4p3.png` into your **Private** repo inside `lectures/freecodecamp/img/`.
 
 #### Part 3: Update index.html
 1. Open your `index.html` file in the `freecodecamp` folder.

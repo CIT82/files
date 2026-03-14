@@ -1,31 +1,50 @@
-### Hands-On: Better @ Coding! (The Vibe-Check)
+### Hands-On: Better @ Coding (The Code-Along)
 
-Now that you are working locally in VS Code, it's time to level up. Professional developers use shortcuts to get the "boring" parts done fast so they can focus on design. Today, you'll choose a productivity path, research it on YouTube, and test it in a private playground.
+In this lab, you will step away from the freeCodeCamp "sandbox" and build a project from scratch in your own local environment. You will practice project organization, external styling, and professional image optimization.
 
-#### Part 1: Choose Your Productivity Path
-Go to YouTube and search for **one** of the following topics (keep it under 10 minutes!):
-* **The Speedster (Emmet Shortcuts):** * *Search:* "VS Code Emmet for beginners"
-    * *Goal:* Learn to generate tags instantly (e.g., `!`, `div.container`, `ul>li*3`).
-* **The Stylist (CSS Extensions):** * *Search:* "Best VS Code extensions for CSS" 
-    * *Goal:* Find visual helpers like "Color Highlight" or "Auto Rename Tag."
-* **The Detective (Browser DevTools):** * *Search:* "Chrome DevTools CSS for beginners"
-    * *Goal:* Learn to "Inspect" your site and live-edit margins or colors in the browser.
+#### Part 1: Project Setup (Public Repo)
+1.  **Folders:** Open your **Public** repo in VS Code. Create a new folder named `code-along`. Inside that, create another folder named `practice`.
+2.  **HTML:** Inside the `practice` folder, create a file named `index.html`. 
+3.  **Emmet Magic:** Open `index.html`, type `!` and press **Enter**. Emmet will instantly generate your HTML boilerplate.
+4.  **CSS:** In the same folder, create a file named `style.css`.
 
-#### Part 2: The Vibe-Check Playground
-1.  **Setup:** In your **Private** repo, create a new folder named `vibe-check`.
-2.  **Boilerplate:** Create `index.html`. Use the Emmet shortcut `!` + `Enter` to generate the HTML skeleton instantly.
-3.  **The Content:** Ask an AI (Gemini or ChatGPT): *"Give me a catchy headline and 3 short paragraphs about the history and vibe of Fresno City College for a student project."*
-4.  **The Task:** Use your chosen **Path** (shortcuts or extensions) to build a simple page using that text. 
-    * *Note: Do not ask the AI for code—you are practicing your manual coding skills here!*
+#### Part 2: Linking & Initial Styling
+1.  **The Link:** Inside the `<head>` section of your HTML, type `link:css` and press **Enter**. Emmet will write the link tag for you. Verify that the `href` attribute is set to `style.css`.
+2.  **The Test:** Open `style.css` and add the following code:
+    ```css
+    body {
+        background-color: lightblue;
+    }
+    ```
+3.  **Milestone 1:** Complete the **Git Workflow** (Stage, Commit, and Push) with the message:
+    * `Initial setup and linked style.css`
 
-#### Part 3: Documentation (Public Repo)
-1.  **Dual-View Screenshot:** Open your site with **Live Server**. Position VS Code on one side and the Browser on the other. 
-2.  **Save:** Capture the screen and save it as `w4-experiment.png` in your **Public** repo's `screenshots/` folder. 
+#### Part 3: Building Structure & Content
+1.  **Live Server:** Right-click `index.html` and select **Open with Live Server**. Your browser should display a light blue page.
+2.  **Structure:** Inside the `<body>`, add the following semantic elements:
+    * A `<header>` containing an `<h1>`.
+    * A `<main>` section containing an `<h3>` and a `<ul>` with three `<li>` items.
+3.  **Milestone 2:** Complete the **Git Workflow** (Stage, Commit, and Push) with the message:
+    * `Added semantic HTML structure`
+4.  **Content:** Add text to your headers and list items. You can use an AI to generate a "Top 3" list (e.g., Top 3 Biking Trails or Top 3 Pizza spots) or write your own.
+5.  **Customize:** Change at least two more CSS properties (e.g., `font-family`, `color`, `text-align`, or `padding`).
+6.  **Milestone 3:** Complete the **Git Workflow** (Stage, Commit, and Push) with the message:
+    * `Customized content and updated styles`
 
+#### Part 4: Image Optimization & Documentation
+1.  **Screenshot:** Take a screenshot of your browser output. 
+2.  **Resize:** Go to [Squoosh.app](https://squoosh.app/). Upload your image and **resize the width to 720px**. 
+3.  **Save:** Download the optimized image and save it into your **Public** repo's `screenshots/` folder.
+4.  **Final Milestone:** Complete the **Git Workflow** (Stage, Commit, and Push) using the file name as the message:
+    * `w4-practice-coding.png`
 
+---
 
-#### Part 4: Finalize & Submit
-1.  **Commit & Push:** Commit your `vibe-check` folder to your **Private** repo with the message: `w4 lab: better coding experiment`. Push to GitHub.
-2.  **Canvas Post:** * Share the YouTube link to the tutorial you watched.
-    * Write your reflection (150 words min).
-    * Embed your `w4-experiment.png` using your **Public GitHub Pages URL**.
+#### Part 5: The Canvas Submission
+Post the following to the discussion board:
+* **The Experience:** Describe your experience building from scratch. Did the `!` shortcut work as expected? What challenges did you face getting the CSS to link or using Live Server?
+* **Embed Your Image:** Use your GitHub Pages URL to embed the image.
+    * *Format:* `https://cit82.github.io/your-pub/screenshots/w4-practice-coding.png`
+
+---
+
