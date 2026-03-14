@@ -1,21 +1,31 @@
-<h3>Assignment Overview: Completing the Cafe Menu</h3>
-<p>
-  Congratulations! Today you are finishing your first fully-styled CSS project. These final steps will teach you how to handle state changes (like what happens when a user hovers over a link) and how to use external fonts to create a unique brand identity.
-</p>
-<ul>
-  <li><strong>Milestone:</strong> Complete through the final step (Step 89) to finish the workshop.</li>
-  <li><strong>Verification:</strong> Ensure your profile icon and the completion status are clearly visible in your screenshot.</li>
-</ul>
+### Week 4 Thursday: Cafe Menu - Part 3 (Steps 60-89)
+
+Congratulations! Today you are finishing your first fully-styled CSS project. These final steps will teach you how to handle state changes (like what happens when a user hovers over a link) and how to use external fonts to create a unique brand identity.
+
+#### Part 1: freeCodeCamp Workshop
+1. Log into your account at [freecodecamp.org](https://www.freecodecamp.org).
+2. Continue the **"Learn Basic CSS by Building a Cafe Menu"** workshop.
+3. **The Goal:** Complete through **Step 89**.
+4. **Capture the Proof:** Take a screenshot of your screen showing you have completed Step 89.
+   - **IMPORTANT:** Your screenshot **MUST** include your account photo/profile icon in the top right corner for verification.
 
 
+#### Part 2: Asset Management & Organization
+1. **Resize:** Use [Squoosh.app](https://squoosh.app/) to resize your screenshot to a width of **500px** (maintain aspect ratio).
+2. **Rename:** Save this file as `w4p3.png`.
+3. **Place:** Move `w4p3.png` into your **Private** repo inside `lectures/freecodecamp/img/`.
 
-<hr>
+#### Part 3: Update index.html
+1. Open your `index.html` file in the `freecodecamp` folder.
+2. **Add Link:** In your CSS section (under the `<h2>CSS</h2>` heading), add a new anchor tag for this milestone.
+   - **Example:** `<a href="img/w4p5.png">View Cafe Menu Progress (Finished)</a>`
 
-<h3>CIT82: Week 4 Thursday Rubric (100 Points Total)</h3>
-<ul>
-  <li><strong>Workshop Completion (40 pts):</strong> Screenshot clearly shows completion of Step 89 of the Cafe Menu with the student's profile photo visible.</li>
-  <li><strong>Asset Management (20 pts):</strong> Image is resized to 500px width and correctly named <code>w4p2.png</code>.</li>
-  <li><strong>Folder Organization (15 pts):</strong> File is placed in the correct <code>lectures/freecodecamp/img/</code> directory in the private repo.</li>
-  <li><strong>HTML Update (15 pts):</strong> The <code>index.html</code> includes a functioning relative link to the final project screenshot.</li>
-  <li><strong>History Submission (10 pts):</strong> Correctly submitted the <strong>GitHub History URL</strong> for the folder.</li>
-</ul>
+---
+
+### Week 4 Thursday Commit Log
+
+| Step | Action | Required Commit Message |
+| :--- | :--- | :--- |
+| **01** | Add `w4p3` image and update `index.html` | `Cafe Menu complete and updated index` |
+
+
