@@ -29,10 +29,3 @@ Now that you have the basic structure and theory down, we are going to dive into
 | **01** | Add `w4p1` image and update `index.html` | `Cafe Menu progress through step 60 and updated index` |
 
 ---
-
-### Submission Instructions
-1. **Git Push:** Push your local changes to GitHub.
-2. **Verify & Navigate:** Go to your **Private** repo on GitHub.
-3. **Open Folder:** Navigate to the `lectures/freecodecamp/` folder.
-4. **Click History:** Click on the **History** button.
-5. **Submit:** Copy the URL of that **History page** and paste it into the Canvas assignment submission.
