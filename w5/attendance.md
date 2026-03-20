@@ -35,7 +35,7 @@ We are linking the Bootstrap Framework and a custom `style.css` that helps us se
    * Add the `defer` attribute: `<script src="..." defer></script>`.
 3. **Link Your Custom CSS:** In the `<head>`, underneath the Bootstrap CSS link, use the Emmet shortcut `link:css` and hit **Tab**. 
    * Ensure the `href` points to your `style.css`.
-4. **Add Breakpoint Helpers:** Go to the [WebDevSimplified Video Description](https://www.youtube.com/watch?v=Jyvffr3aCp0) (or the provided class link), copy the CSS provided for the **breakpoint indicators**, and paste it into your `style.css`. 
+4. **Add Breakpoint Helpers:** Go to the [WebDevSimplified Video Description](https://www.youtube.com/watch?v=Jyvffr3aCp0), and find the link to the style.css that he uses, copy the CSS provided for the **breakpoint indicators**, and paste it into your `style.css`. 
 
 
 
