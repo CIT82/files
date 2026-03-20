@@ -9,7 +9,7 @@
 2. Create a folder named `bootstrap`.
 3. Inside `bootstrap`, create the following three files:
    * `index.html` (Your coding workspace)
-   * `style.css` (Your custom overrides)
+   * `style.css` (Your custom overrides and breakpoint helpers)
    * `README.md` (Your technical learning journal)
 4. **Journal Start:** Add the heading `# Bootstrap Learning Journal` to your `README.md`.
 
@@ -26,8 +26,8 @@ To get the most out of Bootstrap, you need **IntelliSense** (auto-complete) to s
 
 ---
 
-### 🌐 Step 3: The "Dual Link" Strategy (Boilerplate)
-We are linking two things: the Bootstrap Framework (via CDN) and our own custom CSS.
+### 🌐 Step 3: The "Dual Link" Strategy & Breakpoint CSS
+We are linking the Bootstrap Framework and a custom `style.css` that helps us see responsive breakpoints in real-time.
 
 1. **Bootstrap Boilerplate:** Go to the [Bootstrap 5.3 Quick Start](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start) and copy the HTML from **Step 2**. Paste it into your `index.html`.
 2. **Move & Defer JS:** * Cut the `<script src="...">` tag from the bottom of the `<body>`.
@@ -35,20 +35,20 @@ We are linking two things: the Bootstrap Framework (via CDN) and our own custom 
    * Add the `defer` attribute: `<script src="..." defer></script>`.
 3. **Link Your Custom CSS:** In the `<head>`, underneath the Bootstrap CSS link, use the Emmet shortcut `link:css` and hit **Tab**. 
    * Ensure the `href` points to your `style.css`.
-   * **Important:** Your custom CSS link must come **AFTER** the Bootstrap CSS link so you can override Bootstrap styles later.
+4. **Add Breakpoint Helpers:** Go to the [WebDevSimplified Video Description](https://www.youtube.com/watch?v=Jyvffr3aCp0) (or the provided class link), copy the CSS provided for the **breakpoint indicators**, and paste it into your `style.css`. 
 
 
 
-**✅ Required Commit:** `Setup: Linked Bootstrap 5.3 and custom style.css`
+**✅ Required Commit:** `Setup: Linked Bootstrap 5.3 and added breakpoint helper CSS`
 
 ---
 
 ### ✍️ Step 4: Emmet & Layout Verification
 1. **The Lorem Shortcut:** Inside your `<body>`, type `lorem20` and hit **Tab**. This generates 20 words of filler text instantly.
 2. **The "Proof of Life":** Open Live Preview. 
-   * Confirm the "Hello World" font is a clean **sans-serif** (proving Bootstrap is active).
-   * Confirm your `lorem` text is visible on the page.
+   * Confirm the "Hello World" font is a clean **sans-serif**.
+   * **Resize your browser window.** You should see the background color or indicator change based on the CSS you pasted into `style.css`, confirming your custom link is working!
 
-**✅ Required Commit:** `Verify: Confirmed Bootstrap link and Emmet shortcuts`
+**✅ Required Commit:** `Verify: Confirmed Bootstrap link and custom breakpoint styles`
 
 ---
