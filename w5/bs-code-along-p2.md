@@ -1,19 +1,11 @@
-# Assignment 1: Bootstrap Foundations (Part 1)
+# Assignment 2: Interactive Components (Part 2)
 
-### **Content Overview**
-In this section (0:00 - 35:44), we move from custom CSS to Bootstrap’s utility-first framework. You will cover:
-* **The Global Reset:** How Bootstrap standardizes browser styles automatically.
-* **The 12-Column Grid:** Mastering responsive layouts using `rows` and `columns`.
-* **Professional Components:** Building styled tables and modern form inputs with zero custom CSS.
-* **Form UX:** Implementing floating labels and validation states.
-
----
-
-### **Phase 1: Repository Setup**
-1.  **Navigate** to your `code-along` folder.
-2.  **Create a folder** named `bootstrap`.
-3.  **Inside `bootstrap`**, create `index.html` and `README.md`.
-4.  **Setup README:** Open `README.md`, add the heading `# Bootstrap Learning Journal`, and paste the **Quick Reference** (found at the bottom of this log) into the end of the file.
+### **Content Overview (36:00 - End)**
+This final section focuses on the "JavaScript" side of Bootstrap and high-speed styling with utilities:
+* **Buttons:** Creating button and links.
+* **Alerts and Cards:** Creating button and links.
+* **Modals:** Creating pop-up dialog boxes linked to buttons.
+* **Navbars:** Building a responsive navigation menu with a mobile "hamburger" toggle.
 
 ---
 
@@ -21,19 +13,14 @@ In this section (0:00 - 35:44), we move from custom CSS to Bootstrap’s utility
 
 | Video Time | Checkpoint | **Instruction / Task** | Required Commit Message |
 | :--- | :--- | :--- | :--- |
-| **0:54** | **Setup** | **Code:** Link Bootstrap 5.3 CSS in the `<head>` and the JS bundle before the `</body>`. <br>**Notes:** In `README.md`, create `## Setup`. Note that we are using **v5.3**. Mention the `data-bs-theme="dark"` attribute as a new 5.3 feature. | `Setup: Linked Bootstrap 5.3 CDN and JS` |
-| **4:20** | **Containers** | **Code:** Wrap content in `.container` vs `.container-fluid`.<br>**Notes:** Add heading `## Layout`. Explain the difference between a **fixed** container (jumps at breakpoints) and **fluid** (always 100% width). | `Feat: Implemented responsive containers` |
-| **8:30** | **The Grid** | **Code:** Create a `.row` with columns totaling 12 (e.g., `col-md-8` and `col-md-4`).<br>**Notes:** Add `### The Grid System`. Record that Bootstrap uses a **12-unit system**.  | `Feat: Created 12-column grid layout` |
-| **16:14** | **Spacing** | **Code:** Use `g-3` (gutters) on a row and practice nesting a `.row` inside a `.col`.<br>**Notes:** Define **Gutters**—the padding between columns. Note that `g-*` sets both horizontal and vertical gaps. | `Style: Adjusted grid gutters and nesting` |
-| **21:00** | **Tables** | **Code:** Apply `.table`, `.table-striped`, and `.table-responsive`.<br>**Notes:** Add `## Components`. List the classes used and explain why `.table-responsive` needs a **parent wrapper** to work. | `Feat: Styled responsive data tables` |
-| **27:30** | **Forms I** | **Code:** Use `.form-label` and `.form-control`.<br>**Notes:** Add `### Forms`. Note that Bootstrap inputs default to **100% width** of their parent container. | `Feat: Implemented basic Bootstrap forms` |
-| **32:20** | **Forms II** | **Code:** Wrap inputs in `.form-floating`.<br>**Note:** Record the **Mandatory Rule**: The `<label>` must come AFTER the `<input>`, and the input must have a `placeholder`. | `Feat: Added modern floating labels` |
-| **35:44** | **Validation** | **Code:** Add `required` and `.invalid-feedback`.<br>**Notes:** Explain how the `.was-validated` class on a `<form>` makes the `:invalid` CSS pseudo-class "wake up." | `Feat: Implemented form validation feedback` |
+| **36:00** | **Buttons** | **Code:** Create buttons using `.btn` plus modifiers like `.btn-primary`. <br>**Notes:** In `README.md`, add `## Interactivity`. List your 3 favorite button color modifiers. | `Feat: Added styled Bootstrap buttons` |
+| **40:36** | **Alerts Cards** | **Code:** Create alerts using and card componments  | `Feat: Implement Alerts and Cards` |
+| **46:38** | **Modals** | **Code:** Create a `.modal`. Link it to a button using `data-bs-toggle="modal"` and `data-bs-target`. <br>**Notes:** Add `## Modals`. Explain the purpose of the `.modal-backdrop`. | `Feat: Implemented interactive modal popup` |
+| **Skip** | **Collapse**| Good content if you want to review | `No commit ` |
+| **54:26** | **Navbars** | **Code:** Build a `.navbar`. Ensure you include the `.navbar-toggler` and the `.collapse` div. <br>**Notes:** Add `## Navigation`. **Rule:** The `id` of the collapse div must match the `data-bs-target` of the toggle button. | `Feat: Created responsive navigation bar` |
 
+    
 ---
-
-### **Copy this into your README.md:**
-```markdown
 ## 💡 Bootstrap 5.3 Quick Reference
 
 ### **1. Spacing Utilities**

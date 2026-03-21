@@ -1,5 +1,7 @@
 # Assignment 1: Bootstrap Foundations (Part 1)
 
+[Bootstrap 5 Crash Course](https://www.youtube.com/watch?v=Jyvffr3aCp0)
+
 ### **Content Overview (5:40 - 33:13)**
 Now that your environment is staged, we will dive into the core of the Bootstrap framework:
 * **The 12-Column Grid:** Mastering responsive layouts using `rows` and `columns`.
