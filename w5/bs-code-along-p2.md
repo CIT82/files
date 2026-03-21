@@ -14,7 +14,7 @@ This final section focuses on the "JavaScript" side of Bootstrap and high-speed 
 | Video Time | Checkpoint | **Instruction / Task** | Required Commit Message |
 | :--- | :--- | :--- | :--- |
 | **36:00** | **Buttons** | **Code:** Create buttons using `.btn` plus modifiers like `.btn-primary`. <br>**Notes:** In `README.md`, add `## Interactivity`. List your 3 favorite button color modifiers. | `Feat: Added styled Bootstrap buttons` |
-| **40:36** | **Alerts Cards** | **Code:** Create alerts using and card componments  | `Feat: Implement Alerts and Cards` |
+| **40:36** | **Alerts Cards** | **Code:** Create alerts using and card componments <br> Placeholder external reference: https://placehold.co/  | `Feat: Implement Alerts and Cards` |
 | **46:38** | **Modals** | **Code:** Create a `.modal`. Link it to a button using `data-bs-toggle="modal"` and `data-bs-target`. <br>**Notes:** Add `## Modals`. Explain the purpose of the `.modal-backdrop`. | `Feat: Implemented interactive modal popup` |
 | **Skip** | **Collapse**| Good content if you want to review | `No commit ` |
 | **54:26** | **Navbars** | **Code:** Build a `.navbar`. Ensure you include the `.navbar-toggler` and the `.collapse` div. <br>**Notes:** Add `## Navigation`. **Rule:** The `id` of the collapse div must match the `data-bs-target` of the toggle button. | `Feat: Created responsive navigation bar` |
