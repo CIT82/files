@@ -1,6 +1,6 @@
 # Assignment 2: Interactive Components (Part 2)
 
-### **Content Overview (36:00 - End)**
+### **Content Overview (36:00 - 1:00)**
 This final section focuses on the "JavaScript" side of Bootstrap and high-speed styling with utilities:
 * **Buttons:** Creating button and links.
 * **Alerts and Cards:** Creating button and links.
