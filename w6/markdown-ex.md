@@ -1,19 +1,31 @@
 # Project 0: Template Analysis (Part 1)
-**Template Name:** [Name of your template]
-**Bootstrap Version:** [Found in the head comments]
+**Template Name:** [Name]
+**Bootstrap Version:** [Version]
 
 ---
 
-## Section 1: The &lt;head&gt; Analysis
-* **External CSS:** (List the libraries like Bootstrap, Google Fonts, etc.)
-* **Favicons:** (Where are they located?)
-* **Custom CSS:** (Identify the main stylesheet for the template)
+## Section 1: The &lt;head&gt;
+* **External CSS:** (List the libraries)
+* **Custom CSS:** (Link to the template's main CSS file)
 
-## Section 2: The &lt;body&gt; Analysis (Top Half)
-### 1. Semantic Landmarks
-* (List tags like &lt;header&gt;, &lt;nav&gt;, or &lt;section&gt; and what they do.)
+## Section 2: Site Inventory (Top Half)
 
-### 2. Bootstrap Patterns Identified
-* **Pattern 1 [Name]:** (Describe the classes used, e.g., container, row)
-* **Pattern 2 [Name]:** (Explain what this pattern does for the layout)
-* (Continue until you have identified 5 patterns)
+### 1. The Navigation/Menu
+* **Line Numbers:** (e.g., Lines 45-82)
+* **Top-Level Classes:** (Identify classes in the &lt;nav&gt; or &lt;header&gt; tag)
+* **Research:** What do these top-level classes do to the menu's layout?
+
+### 2. The Logo/Branding
+* **Line Numbers:** (e.g., Lines 30-40)
+* **Top-Level Classes:** (Identify classes in the wrapping &lt;div&gt; or &lt;a&gt; tag)
+* **Research:** How is the logo centered or styled?
+
+### 3. The Hero/Welcome Section
+* **Line Numbers:** (e.g., Lines 85-110)
+* **Top-Level Classes:** (Identify classes in the opening &lt;section&gt; tag)
+* **Research:** What defines the height or background of this section?
+
+### 4. About Section
+* **Line Numbers:** (e.g., Lines 112-160)
+* **Top-Level Classes:** (Identify classes in the opening &lt;section&gt; tag)
+* **Research:** How does the template handle the container or spacing here?
